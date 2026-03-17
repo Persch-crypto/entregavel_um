@@ -28,6 +28,12 @@ h1 {
     margin-bottom: 20px;
 }
 
+h1:hover{
+    background: linear-gradient(red, blue);
+    background-clip: text;
+    color: transparent;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -62,12 +68,18 @@ input {
 
 .prosseguir:hover {
     opacity: 0.9;
+    background: linear-gradient(red, blue);
 }
 
 .cadastrar {
+    text-decoration: none;
     font-size: 12px;
     margin-top: 15px;
     text-align: center;
+}
+
+.cadastrar:hover{
+    text-decoration: underline;
 }
 
 @media (max-width: 480px) {
