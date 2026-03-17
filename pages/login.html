@@ -11,18 +11,19 @@
     <main>
         <section class="container">
             <h1>Entre agora!</h1>
-            <form action="/login" method="POST">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
+            <form action="/login" method="POST" id="loginForm">
+                <label for="emailLogin">Email:</label>
+                <input type="email" id="emailLogin" name="email" required>
 
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
+                <label for="passwordLogin">Password:</label>
+                <input type="password" id="passwordLogin" name="password" required>
 
                 <button type="submit" class="prosseguir">Login</button>
-                <a href="/register" class="cadastrar"> Não tem uma conta? Cadastre-se </a>
+                <a href="/pages/cadastro.html" class="cadastrar"> Não tem uma conta? Cadastre-se </a>
             </form>
         </section>
     </main>
 
+    <script src="/script/login.js"></script>
 </body>
 </html>
