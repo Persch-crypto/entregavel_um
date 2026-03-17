@@ -20,13 +20,10 @@ nav{
 }
 #nav-bar{
     padding: 10px;
-    border-radius: 10px;
     background-color: #878181;
-    color: white;
 }
-#nav-bar:hover{
-    text-decoration: overline;
-    font-size: 20px;
+#logo{
+    width: 15%;
 }
 h2:hover{
     background: linear-gradient(red, blue);
@@ -34,6 +31,7 @@ h2:hover{
     color: transparent;
 }
 ul{
+    font-size: 20px;
     display: flex;
     list-style: none;
     gap: 20px;

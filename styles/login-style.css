@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f0f0f0;
@@ -13,7 +12,6 @@ body {
     min-height: 100vh;      
     padding: 20px;          
 }
-
 .container {
     background-color: #fff;
     padding: 60px;
@@ -22,29 +20,24 @@ body {
     width: 100%;            
     max-width: 350px; 
 }
-
 h1 {
     text-align: center;
     margin-bottom: 20px;
 }
-
 h1:hover{
     background: linear-gradient(red, blue);
     background-clip: text;
     color: transparent;
 }
-
 form {
     display: flex;
     flex-direction: column;
 }
-
 label {
     text-align: left;
     margin-bottom: 5px;
     font-size: 14px;
 }
-
 input {
     padding: 10px;
     margin-bottom: 15px;
@@ -52,7 +45,6 @@ input {
     border: 1px solid #ccc;
     width: 100%;
 }
-
 .prosseguir {
     width: 100%;
     margin-top: 10px;
@@ -65,23 +57,19 @@ input {
     cursor: pointer;
     transition: opacity 0.3s;
 }
-
 .prosseguir:hover {
     opacity: 0.9;
     background: linear-gradient(red, blue);
 }
-
 .cadastrar {
     text-decoration: none;
     font-size: 12px;
     margin-top: 15px;
     text-align: center;
 }
-
 .cadastrar:hover{
     text-decoration: underline;
 }
-
 @media (max-width: 480px) {
     .container {
         padding: 25px;
