@@ -1,11 +1,95 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>bem vindo</h1>
-</body>
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Coleta Seletiva</title>
+    <link rel="stylesheet" href="../styles/dashboard.css" />
+  </head>
+  <body>
+    <main class="dashboard">
+      <header class="cabecalho-principal">
+        <h1>Dashboard de Coletas</h1>
+      </header>
+
+      <section class="resumo">
+        <article class="resumo-item">
+          <div class="card">
+            <h2>Coletas Concluídas</h2>
+            <p class="numero" id="concluidas">128</p>
+          </div>
+        </article>
+
+        <article class="resumo-item">
+          <div class="card">
+            <h2>Em Andamento</h2>
+            <p class="numero" id="emAndamento">23</p>
+          </div>
+        </article>
+
+        <article class="resumo-item">
+          <div class="card">
+            <h2>Usuários</h2>
+            <p class="numero" id="participantes">342</p>
+          </div>
+        </article>
+
+        <article class="resumo-item">
+          <div class="card">
+            <h2>Motoristas</h2>
+            <p class="numero" id="motoristas">18</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="layout-principal">
+        <article class="lista-coletas">
+          <div class="card">
+            <header class="card-header">
+              <h2>Últimas Coletas</h2>
+            </header>
+
+            <div class="card-body">
+              <table class="tabela">
+                <thead>
+                  <tr>
+                    <th>Data</th>
+                    <th>Local</th>
+                    <th>Material</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>15/03/2026</td>
+                    <td>Bairro São Jorge</td>
+                    <td>Papel</td>
+                    <td>Em andamento</td>
+                  </tr>
+                  <tr>
+                    <td>21/03/2026</td>
+                    <td>Zona Sul</td>
+                    <td>Papel</td>
+                    <td>Em andamento</td>
+                  </tr>
+                  <tr>
+                    <td>20/03/2026</td>
+                    <td>Bairro Jardim</td>
+                    <td>Vidro</td>
+                    <td>Concluída</td>
+                  </tr>
+                  <tr>
+                    <td>21/03/2026</td>
+                    <td>Centro</td>
+                    <td>Plástico</td>
+                    <td>Concluída</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
 </html>
