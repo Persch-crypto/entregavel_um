@@ -24,11 +24,30 @@ body {
   color: #2f4f3f;
 }
 
+.btn-sair {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #e53935;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.btn-sair:hover {
+  background-color: #c62828;
+  transform: scale(1.05);
+}
+
 .resumo {
   display: flex;
   gap: 16px;
   margin-bottom: 24px;
-  
+
 }
 
 .resumo-item {
@@ -119,5 +138,16 @@ tbody tr:hover {
   .tabela {
     display: block;
     overflow-x: auto;
+  }
+
+  .btn-sair {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+
+  .btn-sair:hover {
+    background-color: #c62828;
+    transform: scale(1.05);
   }
 }
