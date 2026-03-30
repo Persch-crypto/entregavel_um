@@ -1,0 +1,108 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f4f8f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between; /* título à esquerda, botão à direita */
+    align-items: center; /* verticalmente centralizados */
+    flex-wrap: wrap; /* permite quebra de linha em telas pequenas */
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+/* Botão Sair */
+.btn-sair {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #e53935;
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.btn-sair:hover {
+    background-color: #c62828;
+    transform: scale(1.05);
+}
+
+/* Container principal */
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Notícias */
+.noticia {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #2e7d32;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.noticia:hover {
+    transform: translateY(-3px);
+}
+
+.noticia h2 {
+    margin-top: 0;
+    color: #2e7d32;
+    font-size: 1.5em;
+}
+
+.noticia p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.noticia p:last-child {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Responsividade */
+@media (max-width: 700px) {
+    .container {
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    .noticia h2 {
+        font-size: 1.3em;
+    }
+
+    .noticia p {
+        font-size: 0.95em;
+    }
+}
+
+@media (max-width: 500px) {
+    .btn-sair {
+        margin-top: 0;
+    }
+}
+

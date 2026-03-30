@@ -16,5 +16,5 @@ cadastroForm.addEventListener('submit', (e) => {
     localStorage.setItem('usuarioSalvo', JSON.stringify(userData));
 
     alert('Conta criada com sucesso!');
-    window.location.href = '/pages/login.html'; 
+    window.location.href = '../pages/login.html'; 
 });

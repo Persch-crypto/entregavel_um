@@ -10,7 +10,7 @@ loginForm.addEventListener('submit', (e) => {
     if (dadosRecuperados) {
         if (emailDigitado === dadosRecuperados.email && senhaDigitada === dadosRecuperados.password) {
             alert(`Bem-vindo, ${dadosRecuperados.username}!`);
-            window.location.href = '/pages/dashboard.html'; 
+            window.location.href = '../pages/dashboard.html'; 
         } else {
             alert('Email ou senha incorretos.');
         }
