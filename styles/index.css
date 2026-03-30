@@ -60,6 +60,8 @@ main{
     background-size: contain;
     background-position: center bottom;
     background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 h1{
     color: #444;
